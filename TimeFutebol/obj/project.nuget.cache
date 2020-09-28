@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aHrEiwimHiw9VuR12UO93+mb3RUbqqI20QT2JfM3kbipPCGnu6kAfkH4Sl0SCmxTcJFWtJYQglOmCw2KMrV22Q==",
+  "dgSpecHash": "n1akC3LQRZ6Xp9wsYoI5uVKNyvDK3B4csX2t2bfR4JA7XcR5Ar3Z57E2QpGapKoBrqJXvJQAax9rhLqFLwqJJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jean Ramos\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\Jean Ramos\\.nuget\\packages\\portable.bouncycastle\\1.8.6.7\\portable.bouncycastle.1.8.6.7.nupkg.sha512"
+  ],
   "logs": []
 }

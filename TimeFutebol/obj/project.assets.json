@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FluentValidation/9.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.6.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FluentValidation/9.2.2": {
+      "sha512": "Y1TQrSa82i/WWPpXriEkL7uyUyECw3Uvtq66dZ8VC3pwFa9VqnZmeZaJJpz8deKhJQNDgqwU3BSptKTnyjqzuA==",
+      "type": "package",
+      "path": "fluentvalidation/9.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.9.2.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "Portable.BouncyCastle/1.8.6.7": {
+      "sha512": "RBCAkzkBkur4w1YXFpwVdYvdm4ez7PUNyl5DsqPKDe0QSoH9xt6Mwzy1NSFSrrw4T7bCkxi06nSHCuBEuMEgfw==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.8.6.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.8.6.7.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "FluentValidation >= 9.2.2",
+      "Portable.BouncyCastle >= 1.8.6.7"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Jean Ramos\\.nuget\\packages\\": {}
@@ -13,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
+      "projectUniqueName": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
       "projectName": "TimeFutebol",
-      "projectPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
+      "projectPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
       "packagesPath": "C:\\Users\\Jean Ramos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\obj\\",
+      "outputPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jean Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +96,16 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[9.2.2, )"
+          },
+          "Portable.BouncyCastle": {
+            "target": "Package",
+            "version": "[1.8.6.7, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

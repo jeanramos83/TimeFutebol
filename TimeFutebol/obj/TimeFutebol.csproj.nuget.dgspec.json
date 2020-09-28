@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj": {}
+    "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj": {
+    "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
+        "projectUniqueName": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
         "projectName": "TimeFutebol",
-        "projectPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
+        "projectPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\TimeFutebol.csproj",
         "packagesPath": "C:\\Users\\Jean Ramos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\TimeFutebol\\TimeFutebol\\obj\\",
+        "outputPath": "C:\\Users\\Jean Ramos\\Desktop\\Sistemas de Informação - 4º Período\\Humberto Melo - Desenvolvimento de Aplicativos Web e Cloud Computing\\PrimeiroBimestre\\TimeFutebol\\TimeFutebol\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jean Ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.6.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
